@@ -110,3 +110,6 @@ UpgradeLog*.XML
 # Windows Binary
 *.exe
 *.EXE
+
+# vi buffer file
+*.swp
