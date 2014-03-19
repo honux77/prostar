@@ -1,26 +1,11 @@
-using System;
-namespace next {
-	class HelloNext {
-		static void Main(String[] args) {
-			String m1;
-			int x, y, z;
-			//input first number
-			Console.WriteLine("Type first number:");
-			m1 = Console.ReadLine();
-			x = Convert.ToInt32(m1);
-
-			//input second number
-			Console.WriteLine("Type second number:");
-			m1 = Console.ReadLine();
-			y = Convert.ToInt32(m1);
-
-			//z = x + y
-			z = x + y;
-
-			//print result
-			Console.WriteLine("{0} + {1}  = {2}", x, y, z);
-
-		}
-	}
-}
-
+int a1, a2, a3, a4, a5, a6, a7, a8, a9, a10;
+int a11, a12, a13, a14, a15, a16, a17, a18, a19, a20;
+int a21, a22, a23, a24, a25, a26, a27, a28, a29, a20;
+int a1, a2, a3, a4, a5, a6, a7, a8, a9, a10;
+int a1, a2, a3, a4, a5, a6, a7, a8, a9, a10;
+int a1, a2, a3, a4, a5, a6, a7, a8, a9, a10;
+int a1, a2, a3, a4, a5, a6, a7, a8, a9, a10;
+int a1, a2, a3, a4, a5, a6, a7, a8, a9, a10;
+int a1, a2, a3, a4, a5, a6, a7, a8, a9, a10;
+int a1, a2, a3, a4, a5, a6, a7, a8, a9, a10;
+int a1, a2, a3, a4, a5, a6, a7, a8, a9, a10;
