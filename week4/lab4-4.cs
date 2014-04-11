@@ -1,6 +1,8 @@
 using System;
 
 class test {
+
+	//string split example
 	static void Main(string[] args) {
 		string line = Console.ReadLine();
 		string[] words = line.Split(' ');
