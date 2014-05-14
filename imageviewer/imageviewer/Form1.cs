@@ -36,25 +36,24 @@ namespace imageviewer
         private void saveDataToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ImageData id1 = new ImageData();
-            id1.loadFromImage(img);
+            id1.LoadFromImage(img);
+            
             if (saveFileDialog1.ShowDialog() != System.Windows.Forms.DialogResult.OK)
                 return;
-            StreamWriter sw = new StreamWriter(saveFileDialog1.FileName, false, Encoding.GetEncoding("euc-kr"));
-            XmlSerializer xs = new XmlSerializer(typeof(ImageData));
-            xs.Serialize(sw, id1);
-            sw.Close();
+            id1.Save(saveFileDialog1.FileName);           
         }
         
         //load image from data
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() != System.Windows.Forms.DialogResult.OK)
-                return;
+                return;            
             
-            XmlSerializer
-            Bitmap bmp = new Bitmap(img.);
-            
-            }
+            ImageData id = ImageData.LoadFromData(openFileDialog1.FileName);
+            Bitmap bmp = id.GetBmp();
+            pictureBox1.Width = id.width;
+            pictureBox1.Height = id.height;
+            pictureBox1.Image = bmp;
         }
     }
 }
