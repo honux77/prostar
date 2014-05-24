@@ -49,12 +49,10 @@ namespace imageviewer
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() != System.Windows.Forms.DialogResult.OK)
-                return;
+                return;  
+           
             
-            XmlSerializer
-            Bitmap bmp = new Bitmap(img.);
             
-            }
         }
     }
 }
