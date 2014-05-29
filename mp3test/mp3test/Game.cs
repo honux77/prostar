@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace mp3test
 {
-    class Game
+    public class Game
     {
+
     }
 }
