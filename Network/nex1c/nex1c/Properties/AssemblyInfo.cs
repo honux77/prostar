@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NetworkEx1")]
+[assembly: AssemblyTitle("nex1c")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NetworkEx1")]
+[assembly: AssemblyProduct("nex1c")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f234c53a-1ce1-4b2d-9c7d-b2aa95dd5a8d")]
+[assembly: Guid("4774b3e2-4608-4eb9-8064-6ebd1d464f00")]
 
 // Version information for an assembly consists of the following four values:
 //

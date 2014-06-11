@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NetworkEx1.Properties
+namespace nex1c.Properties
 {
 
 

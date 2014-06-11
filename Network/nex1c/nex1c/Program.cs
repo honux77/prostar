@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NetworkEx1
+namespace nex1c
 {
     static class Program
     {
