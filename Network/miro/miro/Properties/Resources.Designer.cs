@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ponyo.Properties {
+namespace miro.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Ponyo.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Ponyo.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("miro.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,40 +63,26 @@ namespace Ponyo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap f1 {
+        internal static System.Drawing.Bitmap atlas {
             get {
-                object obj = ResourceManager.GetObject("f1", resourceCulture);
+                object obj = ResourceManager.GetObject("atlas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized string similar to   ####
+        ///###  ##
+        ///#   $ #
+        ///# #.#@#
+        ///# #$ .#
+        ///#  .$ #
+        ///##   ##
+        /// #####.
         /// </summary>
-        internal static System.Drawing.Bitmap f2 {
+        internal static string map {
             get {
-                object obj = ResourceManager.GetObject("f2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sea {
-            get {
-                object obj = ResourceManager.GetObject("sea", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap stop {
-            get {
-                object obj = ResourceManager.GetObject("stop", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("map", resourceCulture);
             }
         }
     }

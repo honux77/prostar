@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ponyo.Properties
+namespace miro.Properties
 {
 
 
